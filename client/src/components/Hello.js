@@ -9,7 +9,7 @@ const Hello = (props)=>{
     return(
       <div>
         <h1 style={styledWords}>
-          The word is: {word} | {display} | {back}
+          The word is: {word}
         </h1>
         {/* link to path established in route below */}
         <Link to={'/number/:thing'}>Go To Number</Link> | 
